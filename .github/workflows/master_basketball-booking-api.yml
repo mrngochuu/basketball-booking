@@ -29,4 +29,4 @@ jobs:
         app-name: 'basketball-booking-api'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_e309c7a68ad14140979883e12941a9c8 }}
-        package: '${{ github.workspace }}/target/*.war'
+        package: '${{ github.workspace }}/build/libs/*.war'
