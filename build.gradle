@@ -5,8 +5,11 @@ plugins {
 	id 'war'
 }
 
+war {
+    archivesBaseName = 'ROOT'
+}
+
 group = 'com.basketballbooking'
-version = '0.0.1'
 sourceCompatibility = '11'
 targetCompatibility = '11'
 
